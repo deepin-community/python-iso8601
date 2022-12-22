@@ -1,0 +1,28 @@
+Source: python-iso8601
+Section: python
+Priority: optional
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Benjamin Mako Hill <mako@debian.org>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-pytest,
+               python3-setuptools
+Standards-Version: 4.6.0
+Homepage: https://github.com/micktwomey/pyiso8601
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-iso8601.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-iso8601
+Testsuite: autopkgtest-pkg-python
+Rules-Requires-Root: no
+
+Package: python3-iso8601
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Provides: ${python3:Provides}
+Description: Python module to parse ISO 8601 dates - Python 3.x
+ Many file formats and standards use the ISO 8601 date format
+ (e.g. 2007-01-14T20:34:22+00:00) to store dates in a neutral,
+ unambiguous manner. This simple Python module parses the most common
+ forms encountered and returns Python datetime objects.
+ .
+ This package provides the Python 3.x module.
