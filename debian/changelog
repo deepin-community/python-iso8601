@@ -1,3 +1,28 @@
+python-iso8601 (2.1.0-2) unstable; urgency=medium
+
+  * Uploading to unstable.
+
+ -- Thomas Goirand <zigo@debian.org>  Thu, 19 Sep 2024 16:37:24 +0200
+
+python-iso8601 (2.1.0-1) experimental; urgency=medium
+
+  * New upstream release.
+
+ -- Thomas Goirand <zigo@debian.org>  Sat, 24 Feb 2024 11:21:19 +0100
+
+python-iso8601 (1.0.2-1) unstable; urgency=medium
+
+  * Add myself as uploader.
+  * New upstream release.
+  * Ran wrap-and-sort -bastk.
+  * Follow upstream and switch from setuptools to pybuild-plugin-pyproject.
+  * Removed now useless 0001-fix-broken-distutils.patch.
+  * Add build-dependencies:
+    - python3-hypothesis
+    - python3-tz
+
+ -- Thomas Goirand <zigo@debian.org>  Wed, 16 Feb 2022 12:35:27 +0100
+
 python-iso8601 (0.1.16-1) unstable; urgency=medium
 
   * Team upload.
