@@ -1,2 +1,3 @@
 Tests: smoketest-3
-Depends: @
+Depends:
+ @,
